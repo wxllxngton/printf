@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _printf - function gives output according
- * to the input in format
+ * _printf - Function produces output according
+ * to input in format given.
  *
- * @format: input characters
- * @...: other parameters
+ * @format: Input characters.
+ * @...: Other parameters.
  *
- * Return: nothing
+ * Return: Nothing.
  */
 
 int _printf(const char *format, ...)

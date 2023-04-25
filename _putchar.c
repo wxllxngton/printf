@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _putchar - function prints char
+ * _putchar - Function prints char
  *
- * @c: input character
+ * @c: Character to be input.
  *
  * Return: 1 Success, -1 Error
  */

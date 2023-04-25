@@ -1,5 +1,15 @@
 #include "main.h"
 
+/**
+ * _printf - function gives output according
+ * to the input in format
+ *
+ * @format: input characters
+ * @...: other parameters
+ *
+ * Return: nothing
+ */
+
 int _printf(const char *format, ...)
 {
     va_list arglist;

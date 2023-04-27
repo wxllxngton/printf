@@ -68,6 +68,10 @@ int _printf(const char *format, ...)
                         tmp_num /= 10;
                     }
                     num_str = malloc(sizeof(char) * num_digits);
+                    
+                    if (num_str == NULL)
+                        return (NULL);
+                    
                     i = num_digits - 1;
                     for (; i >= 0; i--)
                     {
@@ -141,6 +145,11 @@ int _printf(const char *format, ...)
                         tmp_num /= 8;
                     }
                     num_str = malloc(sizeof(char) * num_digits);
+                    
+                    if (num_str == NULL)
+                        return (NULL);
+                    
+                    
                     i = num_digits - 1;
                     for (; i >= 0; i--)
                     {
@@ -170,6 +179,11 @@ int _printf(const char *format, ...)
                     tmp_num /= 16;
                 }
                 hex_str = malloc(sizeof(char) * num_digits);
+                
+                if (hex_str == NULL)
+                    return (NULL);
+                    
+                
                 i = num_digits - 1;
                 for (; i >= 0; i--)
                 {
@@ -208,6 +222,10 @@ int _printf(const char *format, ...)
                         tmp_num /= 10;
                     }
                     num_str = malloc(sizeof(char) * num_digits);
+                    
+                    if (num_str == NULL)
+                        return (NULL);
+                        
                     i = num_digits - 1;
                     for (; i >= 0; i--)
                     {
